@@ -17,7 +17,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-    app.MapScalarApiReference();        // http://localhost:5223/scalar/v1
+    app.MapScalarApiReference();
 }
 
 app.UseHttpsRedirection();
